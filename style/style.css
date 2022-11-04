@@ -90,7 +90,7 @@ h1 {
 }
 
 footer {
-    padding: 60px 0 20px;
+    padding: 20px 0 0 20px;
 }
 
 footer .email-link {
@@ -184,7 +184,7 @@ footer p {
 }
 
 .work-section {
-    padding: 100px 50px;
+    padding: 100px 50px 0 50px;
 }
 
 .work-section h2 {
@@ -244,7 +244,7 @@ footer p {
 }
 
 .contact-container {
-    padding: 130px 50px;
+    padding: 130px 50px 50px;
 }
 
 .contact-container h1 {
@@ -290,7 +290,7 @@ footer p {
     }
 
     .work-section {
-        padding: 70px 10px;
+        padding: 70px 10px 0 10px;
     }
 
     .work-section .technologies {
