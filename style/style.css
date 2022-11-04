@@ -10,6 +10,40 @@ body {
     font-family: var(--main-font);
 }
 
+nav {
+    padding: 10px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    font-family: var(--additional-font);
+    font-size: 18px;
+    margin-left: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(20, 69, 101, 0.788);
+    font-weight: 500;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+    color: var(--main-color);
+}
+
+nav .logo {
+    font-size: 23px;
+    color: var(--main-color);
+}
+
 .hero h2 {
     font-family: var(--additional-font);
     font-size: 20px;
