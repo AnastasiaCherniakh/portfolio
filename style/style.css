@@ -32,6 +32,9 @@ h1 {
 .projects-btn {
     display: inline-block;
     margin-top: 40px;
+}
+
+.button {
     padding: 20px 28px;
     background-color: var(--main-color);
     color: white;
@@ -41,10 +44,10 @@ h1 {
     font-family: var(--additional-font);
 }
 
-.projects-btn:hover {
+.button:hover {
     background-color: white;
     color: var(--main-color);
-    transition: 0.3s;
+    transition: all 100ms ease-in-out;
 }
 
 .hero {
@@ -109,6 +112,67 @@ h1 {
     font-weight: 500;
 }
 
+.work-section {
+    padding: 100px 50px;
+}
+
+.work-section h2 {
+    font-size: 38px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 27px;
+    font-weight: 600;
+    margin-bottom: 110px;
+}
+
+.work-section h4 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.work-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.work-section img {
+    width: 100%;
+    border-radius: 13px;
+}
+
+.work-section .technologies{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: var(--main-color);
+}
+
+.work-section .technologies p{
+    font-family: var(--additional-font);
+}
+
+.work-section .button {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 19px 15px;
+    background-color: white;
+    color: var(--main-color);
+}
+
+.work-section .button:hover {
+    background-color: var(--main-color);
+    color: white;
+    transition: all 100ms ease-in-out;
+}
+
+.work-section .btn-container {
+    text-align: center;
+    margin: 10px;
+}
+
+
 @media (max-width: 500px) {
     h1 {
         text-align: center;
@@ -125,12 +189,33 @@ h1 {
         font-size: 18px;
     }
 
-    .projects-btn {
+    .hero .projects-btn {
         margin: 40px 19px;
         padding: 18px 24px;
         display: block;
         text-align: center;
         font-size: 14px;
+    }
+
+    .work-section p {
+        font-size: 16px;
+    }
+
+    .work-section {
+        padding: 70px 10px;
+    }
+
+    .work-section .technologies {
+        gap: 4px;
+    }
+
+    .work-section h2 {
+        text-align: center;
+    }
+
+    .work-section .long-tech {
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
 
 }
